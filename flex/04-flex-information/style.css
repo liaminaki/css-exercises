@@ -29,12 +29,13 @@ img {
 
 .plant-container {
   display: flex;
-  gap: 20px;
+  gap: 52px;
+  justify-content: center;
 }
 
 .plant-container div {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 200px;
 }
